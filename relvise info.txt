@@ -1,3 +1,0 @@
-git config user.name 'farrukh' открытие имени пользователя
-git config user.email 'dfdev2@gmail.com'
-git remote add origin https://github.com/dfdev2/relvise.git
