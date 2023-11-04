@@ -809,9 +809,6 @@ body {
   -ms-grid-row-span: 2;
   -ms-grid-column: 1;
   grid-area: icon;
-}
-
-.info-who-we__icon svg {
   width: 3.25rem;
   height: 3.25rem;
 }
@@ -1807,11 +1804,14 @@ body {
     background-color: #0d5c63;
   }
 
+  .cards-main__card:hover svg path,
   .cards-main__card:hover .cards-main__title,
-  .cards-main__card:hover .cards-main__text,
-  .cards-main__card:hover .cards-main__icon svg {
+  .cards-main__card:hover .cards-main__text {
     color: #fff;
     fill: #fff;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
   }
 
   .cards-designing__card:hover {
@@ -1849,7 +1849,7 @@ body {
 
   .getin__item:hover .getin__text,
   .getin__item:hover .getin__imail,
-  .getin__item:hover .getin__item_icon svg {
+  .getin__item:hover .getin__item_icon svg path {
     color: #fff;
     fill: #fff;
     -webkit-transition: fill 0.3s ease 0s;
